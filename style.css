@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .first-section {
+    background-image: url("image/Countries.png");
+    /* height: 1000px; */
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .navigarion-bar {
+    width: 100%;
+    display: flex;
+    padding: 0 0 0 3%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+  }
+  
+
+  .header-logo-div {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .manue-items {
+    width: 80%;
+    background-color: #141323ad;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-left: 5px solid #e52a82;
+  }
+  
+  img.header-logo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .manue-item {
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+  }
+  
+  .social-icons {
+    width: 250px;
+    display: flex;
+   
+  }
+  
+  a.social-item {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 13px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  a.home {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    border-right: 3px solid #e52a82;
+  }
+  
+
+  .main-title {
+    font-size: 50px;
+    color: white;
+    padding: 300px 4%  95px;
+}
+
+.slider-display {
+    width: 100%;
+    background-color: #010b13d9;
+}
+
+.sliders {
+    padding: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slider {
+    position: relative;
+    width: 23%;
+}
+
+.slider-title {
+    position: absolute;
+    /* text-align: center; */
+    font-size: 35px;
+    color: wheat;
+    left: 0%;
+    top: 20px;
+    transform: translate(0%);
+    width: 100%;
+    text-align: center;
+}
+img.slider-image {
+    width: 100%;
+}
